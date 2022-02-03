@@ -139,7 +139,13 @@
                 <h1>Dr. Marco Antonio Flores González</h1>
             </div>
             <div class="col-md-5">
-              <img src="./images/drmarco.jpg" class="img-fluid" alt="Dr Marco Antonio Flores González" />
+
+              <?php
+                if ($vedae == 0) {
+                  echo '<img src="./images/drmarco.jpg" class="img-fluid" alt="Dr Marco Antonio Flores González" />';
+                } 
+              ?>
+
             </div>
           </div>
         </div>
